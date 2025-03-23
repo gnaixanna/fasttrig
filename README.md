@@ -8,7 +8,7 @@ Unit: radian
 
 Accuracy: Error < 0.001
 
-By testing 10^9 data points, the efficiency is 200% of np.sin
+By testing 10^9 data points(With numba), the efficiency is 200% of np.sin
 
 If Numba is available fasttrig will use it. (Ensure the version is compatible with numba)
 
