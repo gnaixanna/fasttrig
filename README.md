@@ -8,7 +8,7 @@ Unit: radian
 
 Accuracy: Error < 0.001
 
-If Numba is available fasttrig will use it.
+If Numba is available fasttrig will use it. (Ensure the version is compatible with numba)
 
 
 ## Example
@@ -25,11 +25,6 @@ print(fast_tan(np.linspace(0, 2*np.pi, 100)))
 ```
 
 
-Fast approximation of sin, cos, tan using forth degree polynomials
 
-
-A fast and lightweight approximation of sin, cos, and tan using 4th-degree polynomials.
-
-Accuracy: Error < 0.001
 
 
